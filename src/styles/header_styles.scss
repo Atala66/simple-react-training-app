@@ -1,0 +1,19 @@
+.navbar {
+    background-color: coral;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 20px 0px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.navbar-link {
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    padding: 0rem 1.2rem;
+}
