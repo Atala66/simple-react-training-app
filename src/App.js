@@ -8,7 +8,6 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import NewForm from "./components/Content/newForm";
 import AboutUs from "./components/Content/aboutUs";
 
-
 class App extends React.Component {
   render() {
     const footerText = "This is the footer text";
@@ -17,12 +16,12 @@ class App extends React.Component {
         <div className="app-container">
           <Header />
           <Switch>
-            <Route exact path="/new-form" component={NewForm} />
-			<Route exact path="/about" component={AboutUs} />
-			<Route exact path="/" component={Home} /> 
-          </Switch>
-          <Footer footerText={footerText} />
-        </div>
+            <Route exact path="/new-form" component={NewForm} />{" "}
+            <Route exact path="/about" component={AboutUs} />{" "}
+            <Route exact path="/" component={Home} />{" "}
+          </Switch>{" "}
+          <Footer footerText={footerText} />{" "}
+        </div>{" "}
       </Router>
     );
   }

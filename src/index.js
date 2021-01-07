@@ -1,6 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
 import ReactDOM from "react-dom";
+import 'bootstrap/dist/css/bootstrap.css';
 import "./index.scss";
 // eslint-disable-next-line no-unused-vars
 import App from "./App";

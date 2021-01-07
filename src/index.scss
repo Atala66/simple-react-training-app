@@ -26,13 +26,11 @@ body {
 .footer {
     background-color: coral;
     display: flex;
-    flex-wrap: wrap;
+    // flex-wrap: wrap;
     justify-content: flex-end;
-    align-items: flex-end;
-    padding: 20px 0px;
+    //  align-items: flex-end;
+    padding: 10px 0px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
-
-
-/* .footer {
-    margin-top: 121px;
-} */
